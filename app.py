@@ -11,4 +11,4 @@ if st.button("Check Eligibility"):
     if age >= 18:
         st.success("Eligible to vote")
     else:
-        st.error("Not eligible to vote")
+        st.write("Not eligible to vote")
